@@ -34,6 +34,7 @@ This project used a free tier AWS EC2 linux Ubuntu instance. This product allows
 <code>
 ssh -i "AWSTesting.pem" ubuntu@ec2-34-209-200-70.us-west-2.compute.amazonaws.com
 </code>
+\n
 
 Note: The .pem file must be in the current directory of the terminal window or the path the the .pem file must be specified, when connecting.
 
