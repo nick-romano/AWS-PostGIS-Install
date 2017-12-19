@@ -31,7 +31,9 @@ Database Installation:
 
 This project used a free tier AWS EC2 linux Ubuntu instance. This product allows the owner to connect to a virtual machine in Amazon’s cloud through a terminal command line. Once connected the owner is able to install programs and edit files through the terminal command line. To connect to the EC2 instance the user must have a private key provided by Amazon and the hostname of the instance.  The follow command can connect the owner to the instance-
 
+<code>
 ssh -i "AWSTesting.pem" ubuntu@ec2-34-209-200-70.us-west-2.compute.amazonaws.com
+</code>
 
 Note: The .pem file must be in the current directory of the terminal window or the path the the .pem file must be specified, when connecting.
 
