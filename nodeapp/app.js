@@ -87,7 +87,7 @@ app.post('/api/users', function(req, res) {
 
 
 
-//shp2pgsql -s 4326 Maryland_Local_Transit__Charm_City_Circulator_Stops.shp bikedb.busStops | psql -h 34.209.200.70:5432 -d bikedb -U nromano
+//shp2pgsql -s 4326 Maryland_Local_Transit__Charm_City_Circulator_Stops.shp bikedb.busStops | psql -h 34.209.201.71:5432 -d bikedb -U n
 
 
 app.listen(3000, function () {
